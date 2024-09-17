@@ -184,7 +184,7 @@
 
   * 假设现在有一个流动性池 ETH-USDT，其中池子比例为 ETH：USDT = 5：2000，现在通过两次花费100USDT来买入ETH，其中变量变化如下表格所示：
 
-  * ![截屏2024-09-08 08.52.30](https://github.com/zhouwei0192/contract/blob/main/uniswap/picture/截屏2024-09-08 08.52.30.png)
+  * ![截屏2024-09-08 08.52.30](picture/截屏2024-09-08 08.52.30.png)
 
     * 第一次花费100USDT来买入ETH：
 

@@ -613,3 +613,26 @@
 
 
 
+# 参考
+
+* [Uniswap V3 Contract Analysis | Blog](https://blog.web3idea.xyz/post/blockchain%2Fdefi%2FUniswap-v3合约分析)
+* [Uniswap V2里的手续费换算_uniswap 买入卖出费率-CSDN博客](https://blog.csdn.net/sanqima/article/details/109667469)
+* [UniswapV2公式推导 - 知乎](https://zhuanlan.zhihu.com/p/400448204)
+* [深入分析AMM恒定乘积模型的滑点与无常损失](https://www.jinse.cn/news/blockchain/1054106.html)
+* [无常损失解释 | 币安学院](https://academy.binance.com/en/articles/impermanent-loss-explained)
+* [交易市场简介 | Uniswap V3 Book 中文版](https://y1cunhui.github.io/uniswapV3-book-zh-cn/docs/introduction/introduction-to-markets/)
+* [DeFi:Uniswap v2协议原理解析一.什么是Uniswap v2 Uniswap是基于以太坊上的去中心化交易所， - 掘金](https://juejin.cn/post/7178857641421045820#heading-12)
+* [价格预言机的使用总结（二）：UniswapV2篇-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2017546)
+* [Uniswap v3 设计详解 - 知乎](https://zhuanlan.zhihu.com/p/448382469)
+* [[科普\]由浅入深理解UniswapV3白皮书 | 登链社区 | 区块链技术社区](https://learnblockchain.cn/article/3055)
+* [uniswap的非永久性损失公式的推导 - 沉风网事](https://myself659.github.io/post/blockchain/uniswap-impermanent-loss-formula/)
+* [深入理解 Uniswap v2 白皮书 — AdamShao](https://mirror.xyz/adshao.eth/qmzSfrOB8s6_-s1AsflYNqEkTynShdpBE0EliqjGC1U)
+* [UniswapV2代码详解. Uniswap… | by Hakeen｜头等仓 | Medium](https://medium.com/@yhk15802841343/uniswapv2代码详解-d3c847682c91)
+* [Uniswap V2 core源码解析Uniswap V2合约分为核心合约（core）和周边合约（periphery）， - 掘金](https://juejin.cn/post/7185379590162874429)
+* [深入解读 Uniswap v3 新特性-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2207603)
+* [165. Uniswap v3 无常损失分析 - Qiwihui's blog](https://qiwihui.com/blogs/qiwihui-blog-165.html#google_vignette)
+* [[科普\]由浅入深理解UniswapV3白皮书 | 登链社区 | 区块链技术社区](https://learnblockchain.cn/article/3055#资金利用率)
+* [深入理解 Uniswap v3 白皮书 — AdamShao](https://mirror.xyz/adshao.eth/tgZjDXOtL999iuPjXWrolR7Ns1nTZDADA6NLJaJpJJM)
+* [去中心化金融笔记](https://dune-marten-78b.notion.site/85b1d29c86344112a886fcfb2ea1c44c#90d13877ee5d4c9e8293f3d7ffacf78f)
+* [UniSwapV3速通：白皮书](
+

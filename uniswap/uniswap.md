@@ -184,7 +184,7 @@
 
   * 假设现在有一个流动性池 ETH-USDT，其中池子比例为 ETH：USDT = 5：2000，现在通过两次花费100USDT来买入ETH，其中变量变化如下表格所示：
 
-  * ![img2024-09-08 08.52.30](picture/img2024-09-08 08.52.30.png)
+  * ![image](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-13%2019.23.42.png)
 
     * 第一次花费100USDT来买入ETH：
 
@@ -222,7 +222,7 @@
 * 可以从上述计算看出无论价格上涨还是下跌，小明都要承受损失，这个就是**无常损失**，所以我们在添加流动性时需要考虑手续费收入能否覆盖代币价格波动带来的无常损失
 * 计算公式：r 为价格比值
 
-  * ![截屏2024-09-12 18.16.39](picture/img2024-09-12 18.16.39.png)
+  * ![img](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-12%2018.16.39.png)
 
   	* 推导过程：https://myself659.github.io/post/blockchain/uniswap-impermanent-loss-formula/
 
@@ -234,8 +234,8 @@
 
 * UniswapV2 使用的价格预言机称为 **TWAP（Time-Weighted Average Price）**，即**时间加权平均价格**，该累计价格将是此合约历史上每秒的现货价格之和。在每个区块第一笔交易前记录累计价格实现预言机，累计价格每个价格会以时间权重记录（基于当前区块与上一次更新价格的区块的时间差）。具体可看下图：
 
-  * ![截屏2024-09-10 18.14.00](picture/img2024-09-10 18.14.00.png)
-  * ![截屏2024-09-10 20.47.18](picture/img2024-09-10 20.47.18.png)
+  * ![img](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-10%2018.14.00.png)
+  * ![img](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-10%2020.47.18.png)
 
 * 实现 TWAP 官方提供了两种方式：固定时间窗口，滑动时间窗口
 
@@ -294,7 +294,7 @@
 * 根据如上例子我们可以看出：当 ETH 价格为 1575，并在【1008，2800】波动时，参与流动的只有 1ETH + 1260USDT，而其余 3ETH+5040USDT未参与流动，因此大部分资金都是处于无用状态，所以我们能否只提供参与流动的资金，也就是 1ETH + 1260USDT，而未参与流动的资金由程序虚拟出来呢？
 
 * 答案是可以的，在 uniswapV3 中通过在指定价格区间提供流动性来虚拟资金，可以根据以上例子绘制一个图表：
-  * ![截屏2024-09-13 09.15.09](picture/img2024-09-13 09.15.09.png)
+  * ![img](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-13%2009.15.09.png)
 
 
 
@@ -487,7 +487,7 @@
 
 * tick 和 position 的关系可以可看下图：
 
-  * ![截屏2024-09-13 19.23.42](picture/img2024-09-13 19.23.42.png)
+  * ![img](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-13%2019.23.42.png)
 
 ## 手续费
 
@@ -520,7 +520,7 @@
 
     * feeGrowthGlobal(全局手续费)：**每单位**流动性积累的手续费总量
     * feeGrowthOutside(区间外侧手续费)：远离当前价格一侧的**每单位**流动性手续费总量
-      * ![截屏2024-09-13 17.03.06](picture/img2024-09-13 17.03.06.png)
+      * ![img](https://github.com/zhouwei0192/blockchain-record/blob/main/uniswap/picture/img2024-09-13%2017.03.06.png)
 
     * 注意：当穿越 tick 时，feeGrowthOutside 需要翻转为另一侧的值，即：
       *  feeGrowthGlobal - feeGrowthOutside
